@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;
+    background-color: #4C0070;
+}
+
+body::before {
+    content: "";
+    width: 600px;
+    height: 750px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url("../img/pubgdagi-togo.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+body::after {
+    content: "";
+    width: 581px;
+    height: 321px;
+    position: absolute;
+    left:  0;
+    bottom: 0;
+    background-image: url("../img/AKM.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav {
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 134px;
+}
+
+.nav-btn {
+    border-radius: 35px;
+    border: 2px solid #FFF;
+    padding: 12px 37px 8px 39px;
+    background-color: #4C0070;
+}
+
+.nav-btn a {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.main-p {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 480px;
+}
